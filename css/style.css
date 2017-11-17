@@ -1,0 +1,81 @@
+p, h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 48px;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+nav {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: salmon;
+}
+
+nav {
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+  background: none;
+  padding: 20px;
+}
+
+nav a {
+  padding: 10px;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+.main {
+  clear: both;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 10px, 0, 10px, 0;
+}
+
+.info {
+  clear: both;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+}
+
+.address {
+  float: right;
+}
+
+footer {
+  clear: both;
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 1px;
+}
+
+/**** BACKGROUND IMGS FOR PAGES ****/
+.home {
+  background: url(../images/vancouver.jpg) no-repeat 50%;
+  background-size: cover;
+}
+
+.about-page {
+    background: url(../images/seawall.jpg) no-repeat 50%;
+    background-size: cover;
+}
+
+.contact {
+  background: url(../images/park.jpg) no-repeat 50%;
+  background-size: cover;
+}
